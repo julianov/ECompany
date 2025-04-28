@@ -1,0 +1,10 @@
+
+
+  /* LOS PADDINGS DE CADA SECCIÓN LOS HAGO EN HOME.CSS*/
+
+.containeracercaDe{
+    display:"flex";
+    flex-direction:"column";
+    width:"100%";
+    height:"auto";
+}

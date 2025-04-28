@@ -1,0 +1,88 @@
+
+.title-nuestrosservicios {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+.title-nuestrosservicios::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+
+.list-section-nuestrosservicios ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.list-section-nuestrosservicios ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+}
+
+.list-section-nuestrosservicios ul li:hover {
+  background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.list-section-nuestrosservicios ul li::after {
+  content: '';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+
+.text-slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  height: 20vh; /* Altura ajustable según el contenido */
+  max-height: 100%; /* Asegura que ocupe el 100% de la altura disponible */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.text-slider h4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Ajusta la duración de la transición */
+  font-family: Arial; 
+  font-size: 2vw; 
+  color: '#333';
+}
+
+.text-slider h4.active {
+  opacity: 1;
+}

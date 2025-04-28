@@ -1,0 +1,70 @@
+a:hover {
+    text-decoration: underline;
+    color: blue; /* agrega un color para el subrayado */
+  }
+  footer {
+    height: 64px;
+    background-color: #24292f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    margin-top: 30px;
+  }
+
+  .containerHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+  }
+
+  .left, .middle, .right {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* LOS PADDINGS LOS HAGO ACA*/
+
+  #nuestros-servicios{
+    padding: 0x 0px 64px 0px;
+  }
+
+  #nuestros-clientes{
+    padding: 64px 0px 64px 0px;
+  }
+
+  #acerca-de{
+    padding: 64px 0px 64px 0px;
+
+  }
+
+  #contactanos{
+    padding: 64px 0px 64px 0px;
+
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #0056b3;
+  }
+  
