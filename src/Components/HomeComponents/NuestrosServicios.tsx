@@ -2,7 +2,7 @@ import React from 'react';
 import './NuestrosServicios.css';
 import TecnologiesImageSlider from './TecnologiesImageSlider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBolt, faLightbulb, faNetworkWired, faVideo, faFireExtinguisher, faChartLine } from '@fortawesome/free-solid-svg-icons';
+import { faBolt, faLightbulb, faNetworkWired, faVideo, faFireExtinguisher, faChartLine, faSolarPanel } from '@fortawesome/free-solid-svg-icons';
 
 const TextSlider: React.FC<{ texts: string[] }> = ({ texts }) => {
   const [currentTextIndex, setCurrentTextIndex] = React.useState(0);
@@ -41,6 +41,11 @@ function NuestrosServicios() {
       icon: faBolt,
       titulo: "Proyectos Eléctricos",
       descripcion: "Diseño, ejecución y supervisión de instalaciones eléctricas en Baja y Media tensión.",
+    },
+    {
+      icon: faSolarPanel,
+      titulo: "Sistemas críticos de generación de emergencia",
+      descripcion: "Soluciones de generación eléctrica con grupos electrógenos a gas o diésel, y sistemas solares on-grid y off-grid, diseñadas para garantizar continuidad operativa ante cortes o fallas de red.",
     },
     {
       icon: faLightbulb,
