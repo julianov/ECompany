@@ -1,0 +1,55 @@
+.container-tecnologias {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.title-nuestrosservicios {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.carousel-item {
+  min-width: 250px;
+  max-width: 250px; /* Limita el ancho del cuadro */
+  margin: 0 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto; /* o 200px según lo que prefieras */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-title {
+  font-size: 1.1rem;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.carousel-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+/* Animación para desplazar el carrusel */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

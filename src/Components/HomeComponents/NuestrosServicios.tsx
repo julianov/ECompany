@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './NuestrosServicios.css';
-import TecnologiesImageSlider from './TecnologiesImageSlider';
+import TecnologiesImageSlider from './ProyectosDestacados';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBolt, faLightbulb, faNetworkWired, faVideo, faFireExtinguisher, faChartLine, faSolarPanel } from '@fortawesome/free-solid-svg-icons';
 
@@ -45,7 +45,7 @@ function NuestrosServicios() {
     {
       icon: faSolarPanel,
       titulo: "Sistemas críticos de generación de emergencia",
-      descripcion: "Soluciones de generación eléctrica con grupos electrógenos a gas o diésel, y sistemas solares on-grid y off-grid, diseñadas para garantizar continuidad operativa ante cortes o fallas de red.",
+      descripcion: "Soluciones de generación eléctrica con grupos electrógenos y sistemas de energía solar on-grid y off-grid.",
     },
     {
       icon: faLightbulb,

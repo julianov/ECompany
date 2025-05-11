@@ -4,7 +4,7 @@ import Contacto from '../Components/HomeComponents/Contacto';
 import ImageSlider from '../Components/HomeComponents/ImageSlider';
 import NuestrosClientes from '../Components/HomeComponents/NuestrosClientes';
 import NuestrosServicios from '../Components/HomeComponents/NuestrosServicios';
-import TecnologiesImageSlider from '../Components/HomeComponents/TecnologiesImageSlider';
+import TecnologiesImageSlider from '../Components/HomeComponents/ProyectosDestacados';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
