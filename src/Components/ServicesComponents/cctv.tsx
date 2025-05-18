@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './servicesComponent.css';
 
 const Cctv: React.FC = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll inmediato al tope sin animación
+  }, []);
+  
   return (
     <div className="container-tecnologias">
       <h1 className="title-nuestrosservicios">CCTV y Videovigilancia</h1>
