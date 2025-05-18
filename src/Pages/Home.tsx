@@ -49,7 +49,7 @@ export const HomePage = () => {
           <div style={{ marginRight: '25px', textDecoration: 'none' }}>
             <a style={{ textDecoration: 'none' }} href="#nuestros-servicios">Nuestros Servicios</a>
           </div>
-          <div style={{ marginRight: '25px', textDecoration: 'none' }}>
+          <div style={{ marginRight: '15px', textDecoration: 'none' }}>
             <a style={{ textDecoration: 'none' }} href="#nuestros-clientes">Nuestros Clientes</a>
           </div>
           <div style={{ marginRight: '25px', textDecoration: 'none' }}>
@@ -87,7 +87,7 @@ export const HomePage = () => {
             <img src="logo.png" alt="Logo de la empresa" width="64" height="64" />
           </div>
           <div className="middle">
-            <h3>@JaoTec 2023</h3>
+            <h3>Enerzone since 2020</h3>
           </div>
           <div className="right">
           </div>

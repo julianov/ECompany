@@ -7,7 +7,7 @@ const ImageSlider = () => {
   const intervalRef = useRef<number | null>(null); // ✅ CORREGIDO
 
   const images = [
-    `${process.env.PUBLIC_URL}/BIM.jpg`,
+    `${process.env.PUBLIC_URL}/BIM.jpeg`,
     `${process.env.PUBLIC_URL}/hmercante.jpeg`,
   ];
 

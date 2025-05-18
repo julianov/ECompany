@@ -10,7 +10,7 @@ const images = [
 function NuestrosClientes() {
   return (
     <div className="containerClientes">
-      <h1 className="title-nuestroClientes">Clientes</h1>
+      <h1 className="title-nuestroClientes">CLIENTES</h1>
 
       <div className="carousel-clientes-wrapper">
         <div className="carousel-clientes-track">

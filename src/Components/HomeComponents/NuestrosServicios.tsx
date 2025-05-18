@@ -47,12 +47,6 @@ function NuestrosServicios() {
     ruta: "/servicios/electrico",
   },
   {
-    icon: faSolarPanel,
-    titulo: "Sistemas críticos de generación de emergencia",
-    descripcion: "Soluciones con grupos electrógenos y sistemas solares on/off-grid.",
-    ruta: "/servicios/generacion",
-  },
-  {
     icon: faLightbulb,
     titulo: "Iluminación",
     descripcion: "Proyectos de iluminación eficientes y estéticos.",
@@ -77,8 +71,14 @@ function NuestrosServicios() {
     ruta: "/servicios/fa",
   },
   {
+    icon: faSolarPanel,
+    titulo: "Generación de Emergencia",
+    descripcion: "Soluciones con grupos electrógenos y sistemas solares on/off-grid.",
+    ruta: "/servicios/generacion",
+  },
+  {
     icon: faChartLine,
-    titulo: "Eficiencia Energética",
+    titulo: "Eficiencia Energética y Domótica",
     descripcion: "Optimización del consumo energético.",
     ruta: "/servicios/ef",
   },
