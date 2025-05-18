@@ -21,11 +21,11 @@ const Cctv: React.FC = () => {
       <section className="section">
         <h2>Tipos de Proyectos</h2>
         <ul>
-          <li>Data Centers</li>
-          <li>Hospitales y centros de salud</li>
-          <li>Centros logísticos e industriales</li>
           <li>Edificios residenciales y oficinas</li>
           <li>Locales comerciales y shoppings</li>
+          <li>Hospitales y centros de salud</li>
+          <li>Centros logísticos e industriales</li>
+          <li>Data Centers</li>
         </ul>
       </section>
 
@@ -47,30 +47,23 @@ const Cctv: React.FC = () => {
         </p>
       </section>
 
-      <section className="section">
-        <h2>Galería de Proyectos</h2>
-        <div className="carousel-track">
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/cctv-hospital.jpg" alt="Hospital Vigilancia" className="carousel-image" />
-            <h3 className="carousel-title">Hospital Público CABA</h3>
-            <p className="carousel-subtitle">Sistema CCTV con más de 150 cámaras IP</p>
+      <section className="section-marcas">
+        <h2 className="title-marcas">Marcas que utilizamos</h2>
+        <div className="carousel-track-marcas">
+          <div className="carousel-item-marcas">
+            
+            <img src="./public/Marcas/dahua.jpg" alt="Dahua" className="marca-image" />
           </div>
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/cctv-industria.jpg" alt="Industria Vigilancia" className="carousel-image" />
-            <h3 className="carousel-title">Planta Industrial Zona Sur</h3>
-            <p className="carousel-subtitle">Videovigilancia perimetral y control de accesos</p>
+          <div className="carousel-item-marcas">
+            <img src="/marcas/siemens.png" alt="Siemens" className="marca-image" />
           </div>
+          <div className="carousel-item-marcas">
+            <img src="/marcas/schneider.png" alt="Schneider Electric" className="marca-image" />
+          </div>
+          {/* Agregá más logos si querés */}
         </div>
       </section>
 
-      <section className="section">
-        <h2>Clientes Destacados</h2>
-        <div className="clients-logos">
-          <img src="/clientes/logo_hp.png" alt="HP" className="client-logo" />
-          <img src="/clientes/logo_posadas.png" alt="Hospital Posadas" className="client-logo" />
-          <img src="/clientes/logo_dahua.png" alt="Dahua" className="client-logo" />
-        </div>
-      </section>
     </div>
   );
 };

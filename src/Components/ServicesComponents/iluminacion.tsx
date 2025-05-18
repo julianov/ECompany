@@ -47,30 +47,7 @@ const Iluminacion: React.FC = () => {
         </p>
       </section>
 
-      <section className="section">
-        <h2>Galería de Proyectos</h2>
-        <div className="carousel-track">
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/oficina-iluminacion.jpg" alt="Oficinas iluminadas" className="carousel-image" />
-            <h3 className="carousel-title">Oficinas AAA - CABA</h3>
-            <p className="carousel-subtitle">Iluminación LED con control DALI y sensores de presencia</p>
-          </div>
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/local-comercial.jpg" alt="Local comercial" className="carousel-image" />
-            <h3 className="carousel-title">Flagship Store</h3>
-            <p className="carousel-subtitle">Diseño de iluminación decorativa y técnica</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <h2>Clientes Destacados</h2>
-        <div className="clients-logos">
-          <img src="/clientes/logo_irsa.png" alt="IRSA" className="client-logo" />
-          <img src="/clientes/logo_osde.png" alt="OSDE" className="client-logo" />
-          <img src="/clientes/logo_techint.png" alt="Techint" className="client-logo" />
-        </div>
-      </section>
+      
     </div>
   );
 };

@@ -21,11 +21,11 @@ const Datos: React.FC = () => {
       <section className="section">
         <h2>Tipos de Proyectos</h2>
         <ul>
-          <li>Data Centers</li>
           <li>Oficinas corporativas</li>
           <li>Edificios inteligentes</li>
           <li>Hospitales y centros médicos</li>
           <li>Locales comerciales y retail</li>
+          <li>Data Centers</li>
         </ul>
       </section>
 
@@ -48,29 +48,17 @@ const Datos: React.FC = () => {
       </section>
 
       <section className="section">
-        <h2>Galería de Proyectos</h2>
+        <h2>Marcas</h2>
         <div className="carousel-track">
           <div className="carousel-item">
-            <img src="/proyectosdestacados/datacenter2.jpg" alt="Data Center" className="carousel-image" />
-            <h3 className="carousel-title">Data Center Córdoba</h3>
-            <p className="carousel-subtitle">Infraestructura de red y fibra óptica</p>
+          
           </div>
           <div className="carousel-item">
-            <img src="/proyectosdestacados/oficinas.jpg" alt="Oficinas" className="carousel-image" />
-            <h3 className="carousel-title">Torre Corporativa IRSA</h3>
-            <p className="carousel-subtitle">Red estructurada y Wi-Fi para 12 pisos</p>
+           
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <h2>Clientes Destacados</h2>
-        <div className="clients-logos">
-          <img src="/clientes/logo_irsa.png" alt="IRSA" className="client-logo" />
-          <img src="/clientes/logo_hp.png" alt="HP" className="client-logo" />
-          <img src="/clientes/logo_cisco.png" alt="Cisco" className="client-logo" />
-        </div>
-      </section>
     </div>
   );
 };

@@ -47,30 +47,7 @@ const EF: React.FC = () => {
         </p>
       </section>
 
-      <section className="section">
-        <h2>Galería de Proyectos</h2>
-        <div className="carousel-track">
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/edificio-inteligente.jpg" alt="Edificio inteligente" className="carousel-image" />
-            <h3 className="carousel-title">Oficinas Green Tower</h3>
-            <p className="carousel-subtitle">Sistema domótico y monitoreo energético en tiempo real</p>
-          </div>
-          <div className="carousel-item">
-            <img src="/proyectosdestacados/casa-domotica.jpg" alt="Casa domótica" className="carousel-image" />
-            <h3 className="carousel-title">Residencia Privada</h3>
-            <p className="carousel-subtitle">Automatización completa de iluminación y climatización</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <h2>Clientes Destacados</h2>
-        <div className="clients-logos">
-          <img src="/clientes/logo_hp.png" alt="HP" className="client-logo" />
-          <img src="/clientes/logo_irsa.png" alt="IRSA" className="client-logo" />
-          <img src="/clientes/logo_posadas.png" alt="Hospital Posadas" className="client-logo" />
-        </div>
-      </section>
+     
     </div>
   );
 };
