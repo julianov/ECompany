@@ -3,6 +3,7 @@ import './NuestrosServicios.css';
 import TecnologiesImageSlider from './ProyectosDestacados';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBolt, faLightbulb, faNetworkWired, faVideo, faFireExtinguisher, faChartLine, faSolarPanel } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const TextSlider: React.FC<{ texts: string[] }> = ({ texts }) => {
   const [currentTextIndex, setCurrentTextIndex] = React.useState(0);
@@ -27,6 +28,8 @@ const TextSlider: React.FC<{ texts: string[] }> = ({ texts }) => {
 };
 
 function NuestrosServicios() {
+    const navigate = useNavigate();
+
   const beneficios = [
     "Proyectos eléctricos integrales: desde la ingeniería hasta la ejecución en obra.",
     "Sistemas de iluminación eficientes, funcionales y adaptados a cada necesidad.",
@@ -36,43 +39,50 @@ function NuestrosServicios() {
     "Implementamos soluciones de eficiencia energética para reducir consumos eléctricos y optimizar costos operativos."
   ];
 
-  const servicios = [
-    {
-      icon: faBolt,
-      titulo: "Proyectos Eléctricos",
-      descripcion: "Diseño, ejecución y supervisión de instalaciones eléctricas en Baja y Media tensión.",
-    },
-    {
-      icon: faSolarPanel,
-      titulo: "Sistemas críticos de generación de emergencia",
-      descripcion: "Soluciones de generación eléctrica con grupos electrógenos y sistemas de energía solar on-grid y off-grid.",
-    },
-    {
-      icon: faLightbulb,
-      titulo: "Iluminación",
-      descripcion: "Proyectos de iluminación interior y exterior que combinan eficiencia energética, confort visual y estética.",
-    },
-    {
-      icon: faNetworkWired,
-      titulo: "Redes de Datos",
-      descripcion: "Instalación de redes de datos estructuradas, garantizando conectividad rápida, estable y segura.",
-    },
-    {
-      icon: faVideo,
-      titulo: "Sistemas de CCTV",
-      descripcion: "Implementación de sistemas de videovigilancia avanzados para la protección de personas, bienes e instalaciones.",
-    },
-    {
-      icon: faFireExtinguisher,
-      titulo: "Alarmas Contra Incendio",
-      descripcion: "Diseño y montaje de sistemas de detección y alarmas de incendio bajo normativas vigentes y estándares internacionales.",
-    },
-    {
-      icon: faChartLine,
-      titulo: "Eficiencia Energética",
-      descripcion: "Soluciones para optimizar consumos energéticos, reducir costos y promover la sustentabilidad en su organización.",
-    },
-  ];
+ const servicios = [
+  {
+    icon: faBolt,
+    titulo: "Proyectos Eléctricos",
+    descripcion: "Diseño, ejecución y supervisión de instalaciones eléctricas en Baja y Media tensión.",
+    ruta: "/servicios/electrico",
+  },
+  {
+    icon: faSolarPanel,
+    titulo: "Sistemas críticos de generación de emergencia",
+    descripcion: "Soluciones con grupos electrógenos y sistemas solares on/off-grid.",
+    ruta: "/servicios/generacion",
+  },
+  {
+    icon: faLightbulb,
+    titulo: "Iluminación",
+    descripcion: "Proyectos de iluminación eficientes y estéticos.",
+    ruta: "/servicios/iluminacion",
+  },
+  {
+    icon: faNetworkWired,
+    titulo: "Redes de Datos",
+    descripcion: "Redes estructuradas para conectividad segura.",
+    ruta: "/servicios/datos",
+  },
+  {
+    icon: faVideo,
+    titulo: "Sistemas de CCTV",
+    descripcion: "Videovigilancia para protección de bienes y personas.",
+    ruta: "/servicios/cctv",
+  },
+  {
+    icon: faFireExtinguisher,
+    titulo: "Alarmas Contra Incendio",
+    descripcion: "Detección y alarma bajo normativas.",
+    ruta: "/servicios/fa",
+  },
+  {
+    icon: faChartLine,
+    titulo: "Eficiencia Energética",
+    descripcion: "Optimización del consumo energético.",
+    ruta: "/servicios/ef",
+  },
+];
 
   const [isDesktop, setIsDesktop] = React.useState(window.innerWidth > 767);
 
@@ -98,7 +108,17 @@ function NuestrosServicios() {
                   <FontAwesomeIcon icon={servicio.icon} size="2x" style={{ marginBottom: '10px', color: '#007bff' }} />
                   <h3 style={{ marginBottom: '10px' }}>{servicio.titulo}</h3>
                   <p style={{ fontSize: '0.9rem', marginBottom: '15px', color: '#666' }}>{servicio.descripcion}</p>
-                  <button style={{ backgroundColor: '#007bff', color: '#fff', padding: '8px 16px', borderRadius: '5px', border: 'none', cursor: 'pointer' }}>
+                  <button
+                    onClick={() => navigate(servicio.ruta)}
+                    style={{
+                      backgroundColor: '#007bff',
+                      color: '#fff',
+                      padding: '8px 16px',
+                      borderRadius: '5px',
+                      border: 'none',
+                      cursor: 'pointer'
+                    }}
+                  >
                     Conocer más
                   </button>
                 </div>
