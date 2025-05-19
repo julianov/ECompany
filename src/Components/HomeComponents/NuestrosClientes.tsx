@@ -4,7 +4,7 @@ import './NuestrosClientes.css';
 const images = [
   `${process.env.PUBLIC_URL}/clientes/hospitalPosadas.png`,
   `${process.env.PUBLIC_URL}/clientes/fundacionFlexer.avif`,
-  `${process.env.PUBLIC_URL}/clientes/cbArquitectos.jpg`,
+  `${process.env.PUBLIC_URL}/clientes/cbArquitectos.jpeg`,
 ];
 
 function NuestrosClientes() {

@@ -51,8 +51,7 @@ const Cctv: React.FC = () => {
         <h2 className="title-marcas">Marcas que utilizamos</h2>
         <div className="carousel-track-marcas">
           <div className="carousel-item-marcas">
-            
-            <img src="./public/Marcas/dahua.jpg" alt="Dahua" className="marca-image" />
+           <img src="/Marcas/dahua.jpeg" alt="Dahua" style={{ width: '150px', height: 'auto', objectFit: 'contain' }} className="marca-image" />
           </div>
           <div className="carousel-item-marcas">
             <img src="/marcas/siemens.png" alt="Siemens" className="marca-image" />
