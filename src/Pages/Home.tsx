@@ -80,19 +80,26 @@ export const HomePage = () => {
           <Contacto />
         </div>
       </main>
-      <footer >
-        {/* contenido del pie de página */}
-        <div className="containerHome">
-          <div className="left">
-            <img src="logo.png" alt="Logo de la empresa" width="64" height="64" />
-          </div>
-          <div className="middle">
-            <h3>Enerzone since 2020</h3>
-          </div>
-          <div className="right">
-          </div>
-        </div>
-      </footer>
+      <footer className="footer">
+  <div className="footer-container">
+    <div className="footer-column">
+      <img src="/logo.png" alt="Logo de Enerzone" width="64" height="64" />
+      <p className="footer-copy">© Enerzone 2020</p>
+    </div>
+
+    <div className="footer-column">
+      <h4>Ubicación</h4>
+      <p>Buenos Aires, Argentina</p>
+    </div>
+
+    <div className="footer-column">
+      <h4>Contacto</h4>
+      {/* <p><a href="mailto:info@enerzone.com">info@enerzone.com</a></p>*/}
+      <p><a href="https://www.instagram.com/enerzone.argentina/?igsh=MTVtdDg1ODNienRycg%3D%3D" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+      <p><a href="https://www.linkedin.com/in/enerzone-s-r-l-807822365/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </div>
+  </div>
+</footer>
       {isVisible && (
         <div className="scroll-to-top" onClick={scrollToTop}>
           <FontAwesomeIcon icon={faArrowUp} />

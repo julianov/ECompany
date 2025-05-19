@@ -2,16 +2,6 @@ a:hover {
     text-decoration: underline;
     color: blue; /* agrega un color para el subrayado */
   }
-  footer {
-    height: 64px;
-    background-color: #24292f;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 0;
-    margin-top: 30px;
-  }
 
   .containerHome{
     display: flex;
@@ -68,3 +58,45 @@ a:hover {
     background-color: #0056b3;
   }
   
+  .footer {
+  background-color: #1a1a1a;
+  color: #eee;
+  padding: 40px 20px;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-left img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.footer a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
