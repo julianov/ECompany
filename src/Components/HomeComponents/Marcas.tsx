@@ -2,9 +2,11 @@ import React from 'react';
 import './NuestrosClientes.css';
 
 const images = [
-  `${process.env.PUBLIC_URL}/marcas/SE.jpeg`,
-  `${process.env.PUBLIC_URL}/marcas/simens.jpeg`,
-  `${process.env.PUBLIC_URL}/marcas/abb.jpeg`,
+  `${process.env.PUBLIC_URL}/Marcas/SE.jpeg`,
+  `${process.env.PUBLIC_URL}/Marcas/simens.jpeg`,
+  `${process.env.PUBLIC_URL}/Marcas/abb.jpeg`,
+  `${process.env.PUBLIC_URL}/Marcas/dahua.jpeg`,
+
 ];
 
 function Marcas() {
