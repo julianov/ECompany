@@ -14,7 +14,7 @@ const Datos: React.FC = () => {
       <section className="section">
         <h2>Infraestructura de Redes y Comunicaciones</h2>
         <p>
-          Diseñamos e implementamos soluciones de conectividad para entornos empresariales, industriales y tecnológicos. Nuestros servicios cubren desde la ingeniería de red estructurada hasta la instalación y configuración de sistemas activos, garantizando rendimiento, escalabilidad y cumplimiento de estándares internacionales. Aseguramos una conectividad confiable para servicios críticos como voz, datos y video.
+          Diseñamos e implementamos soluciones de conectividad para entornos empresariales, comerciales, domiciliarios e industriales. Nuestros servicios cubren desde la ingeniería de red estructurada hasta la instalación y configuración de equipos de red, garantizando rendimiento, escalabilidad y cumplimiento de estándares internacionales. Aseguramos una conectividad confiable para servicios críticos como voz, datos y video.
         </p>
       </section>
 

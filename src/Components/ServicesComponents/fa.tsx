@@ -14,7 +14,9 @@ const FA: React.FC = () => {
       <section className="section">
         <h2>Ingeniería y Ejecución de Sistemas de FA</h2>
         <p>
-          Diseñamos e implementamos sistemas de detección y alarma contra incendio conforme a las normativas locales e internacionales. Trabajamos en proyectos de todo tipo, desde edificios residenciales hasta instalaciones críticas como hospitales y data centers, priorizando la seguridad de las personas y la protección de los bienes.
+          Desarrollamos soluciones integrales para sistemas de detección y alarma contra incendio, cumpliendo con las normativas locales e internacionales. Nuestra ingeniería abarca desde el diseño conceptual hasta la implementación en obra, incluyendo la selección de tecnologías adecuadas, el cálculo de cobertura, el diseño de la red de detección y señalización, y la integración con otros sistemas de seguridad.
+
+Contamos con experiencia en una amplia variedad de entornos, desde edificios residenciales y comerciales hasta instalaciones críticas como hospitales, centros de datos e industrias, garantizando la seguridad de las personas, la continuidad operativa y la protección de los activos.
         </p>
       </section>
 
