@@ -47,24 +47,24 @@ const Electrico: React.FC = () => {
         </p>
       </section>
 
-      <section className="section-marcas">
-        <h2 className="title-marcas">Marcas que utilizamos</h2>
-        <div className="carousel-track-marcas">
-          <div className="carousel-item-marcas">
-           <img src="/Marcas/simens.jpeg" alt="Siemens" style={{ width: '150px', height: 'auto', objectFit: 'contain' }} className="marca-image" />
-          </div>
-          <div className="carousel-item-marcas">
-            <img src="/marcas/SE.jpeg" alt="JPEG"  style={{ width: '150px', height: 'auto', objectFit: 'contain' }} className="marca-image" />
-          </div>
-          <div className="carousel-item-marcas">
-            <img src="/marcas/abb.jpeg" alt="ABBc" style={{ width: '150px', height: 'auto', objectFit: 'contain' }} className="marca-image" />
-          </div>
-          <div className="carousel-item-marcas">
-            <img src="/marcas/genrod.jpeg" alt="genrod" style={{ width: '150px', height: 'auto', objectFit: 'contain' }} className="marca-image" />
-          </div>
-          {/* Agregá más logos si querés */}
-        </div>
-      </section>
+      <section className="section-marcas"> 
+  <h2 className="title-marcas">Marcas que utilizamos</h2>
+  <div className="grid-marcas">
+    <div className="grid-item">
+      <img src="/marcas/simens.jpeg" alt="Siemens" className="marca-image" />
+    </div>
+    <div className="grid-item">
+      <img src="/marcas/SE.jpeg" alt="Schneider Electric" className="marca-image" />
+    </div>
+    <div className="grid-item">
+      <img src="/marcas/abb.jpeg" alt="ABB" className="marca-image" />
+    </div>
+    <div className="grid-item">
+      <img src="/marcas/genrod.jpeg" alt="Genrod" className="marca-image" />
+    </div>
+    {/* Agregá más si querés */}
+  </div>
+</section>
       
     </div>
   );

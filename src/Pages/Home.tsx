@@ -8,6 +8,7 @@ import TecnologiesImageSlider from '../Components/HomeComponents/ProyectosDestac
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import Marcas from '../Components/HomeComponents/Marcas';
 
 export const HomePage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,6 +73,10 @@ export const HomePage = () => {
           <NuestrosClientes />
         </div>
 
+        <div id="acerca-de">
+          <Marcas />
+        </div>
+        
         <div id="acerca-de">
           <AcercaDe />
         </div>
